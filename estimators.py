@@ -52,6 +52,7 @@ def generate_serial_numbers(total_tanks, num_serials, seed):
             serial_nums.add(poss_serial)
             unique_serial_numbers += 1
 
+    print(sorted(serial_nums))
     return sorted(serial_nums)
 
 
